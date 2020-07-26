@@ -1,0 +1,111 @@
+/* Selections by Type */
+
+figure {
+	margin: 0;
+}
+
+fieldset {
+	margin: 10px;
+}
+
+ul {
+	padding: 0 10px;
+}
+
+label {
+	display: block;
+}
+
+address {
+	margin: 20px 10px 10px 0;
+}
+
+
+/* Selections by ID */
+
+#card-content {
+	height: 100%;
+}
+
+#header-item-1 {
+	margin: 10px 0 20px 10px;
+}
+
+#header-item-3 {
+	margin: 10px 10px 20px 0;
+}
+
+#logo {
+	height: 100%;
+}
+
+
+/* Selections by Class */
+
+.navigation {
+	padding: 0;
+	margin: 0;
+}
+
+.header-figure {
+	margin: 10px auto 0 auto;
+}
+
+.subscribe {
+	padding: 10px;
+}
+
+
+/* Small screens: 600px */
+
+@media (max-width: 600px)
+{
+	/* Selections by Type */
+
+	body {
+		width: fit-content;
+		margin: 0;
+	}
+
+	hgroup {
+		padding: 0 10px;
+	}
+
+	/* Selections by ID */
+
+	/* Selections by Class */
+
+}
+
+
+/* Medium screens: */
+
+@media (min-width: 601px) and (max-width: 1089px)
+{
+	/* Selections by Type */
+
+	hgroup {
+		padding: 0 10px;
+	}
+
+	/* Selections by ID */
+
+	/* Selections by Class */
+}
+
+
+/* Large screens */
+
+@media (min-width: 1090px)
+{
+	/* Selections by Type */
+
+	/* Selections by ID */
+
+	#card-content {
+		height: auto;
+	}
+
+	/* Selections by Class */
+
+}

@@ -1,0 +1,41 @@
+/* Selections by Type */
+
+/* Selections by ID */
+
+#card-button:link, #card-button:visited {
+	color: #fff;
+}
+
+#card-button:hover, #card-button:active {
+	color: #ff8585;
+	text-decoration: underline;
+}
+
+#footer-item-3:hover, #footer-item-3:active {
+	color: #000;
+}
+
+#link:hover, #link:active {
+	color: #000;
+}
+
+
+/* Selections by Class */
+
+.nav-item {
+	border: 3px solid #000;
+	width: 20%;
+	text-align: center;
+	background-color: #efefef;
+	border-radius: 25px;
+}
+
+.nav-item:hover, .nav-item:active {
+	background-color: #fdfd80;
+	color: #ff8585;
+}
+
+.social-media:hover, .social-media:active {
+	color: #000;
+	text-decoration: underline;
+}

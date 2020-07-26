@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Blog Homepage</title>
+		<link href="files/css/home/home.css" rel="stylesheet">
+	</head>
+	<body>
+		<!-- introductory content -->
+		<header class="header">
+
+			<!-- navigation links -->
+			<nav class="navigation">
+				<a href="index.html" class="nav-item">Home</a>
+				<a href="#" class="nav-item">About</a>
+				<a href="files/html/blog-post.html" class="nav-item">BlogPost</a>
+				<a href="#" class="nav-item">Contact</a>
+			</nav>
+
+			<!-- headings -->
+			<hgroup>
+				<h1>Welcome to my personal blog!</h1>
+				<h3>My name's Ulugbek Urunov - a student, learner at Udacity and author of this blog!</h3>
+			</hgroup>
+
+			<!-- Logo with image caption -->
+			<figure class="header-figure">
+				<img src="images/home/pic01.jpg" alt="Author's picture" id="logo" class="figure">
+				<figcaption>Ulugbek Urunov</figcaption>
+			</figure>
+
+		</header>
+
+		<!-- Main: direct content -->
+		<main>
+
+			<!-- 1st article -->
+			<article id="card-1">
+				<figure>
+					<img src="images/home/pic02.jpg" alt="Hardware & Software" id="logo">
+				</figure>
+				<div class="card-content" id="card-content">
+					<ul>
+						<li><strong>Name:</strong> Hardware & Software?</li>
+						<li><strong>Type:</strong> Programming</li>
+						<li><strong>Date:</strong> 21 July, 2020</li>
+						<li><strong>Description: </strong> <br>Hardware and Software are 2 main components of a computer. Major hardware components are CPU, RAM, I/O, etc. Software are programs written to perform specific tasks...</li>
+					</ul>
+				</div>
+				<div class="card-button">
+					<a href="files/html/blog-post.html" id="card-button">Continue reading</a>
+				</div>
+			</article>
+
+			<!-- 2nd article -->
+			<article id="card-2">
+				<figure>
+					<img src="images/home/pic03.jpg" alt="Personal Life" id="logo">
+				</figure>
+				<div class="card-content" id="card-content">
+					<ul>
+						<li><strong>Name:</strong> My daily life & routines</li>
+						<li><strong>Type:</strong> Daily Life</li>
+						<li><strong>Date:</strong> 20 July, 2020</li>
+						<li><strong>Description: </strong> <br>Everyday, I act accordingly to my daily schedule where I keep my plans which need to be accomplished in a day. Above all, before commencing my daily activities, I try to have...</li>
+					</ul>
+				</div>
+				<div class="card-button">
+					<a href="files/html/blog-post.html" id="card-button">Continue reading</a>
+				</div>
+			</article>
+
+			<!-- 3rd article -->
+			<article id="card-3">
+				<figure>
+					<img src="images/home/pic04.jpg" alt="Fresh News" id="logo">
+				</figure>
+				<div class="card-content" id="card-content">
+					<ul>
+						<li><strong>Name:</strong> Changes to a city!</li>
+						<li><strong>Type:</strong> News</li>
+						<li><strong>Date:</strong> 19 July, 2020</li>
+						<li><strong>Description: </strong> <br>A city whose citizens have always been hopeful and patient for restoration and bringing the beauty to the city. Finally, major's eyes have been caught in this beautiful...</li>
+					</ul>
+				</div>
+				<div class="card-button">
+					<a href="files/html/blog-post.html" id="card-button">Continue reading</a>
+				</div>
+			</article>
+
+		</main>
+
+		<!-- Aside: indirect content -->
+		<aside>
+
+			<!-- Web form -->
+			<form>
+
+				<!-- Grouping controls and labels -->
+				<fieldset>
+					<!-- Caption for its parent-->
+					<legend class="centered-text">Post types</legend>
+
+					<!-- Caption for control -->
+					<section class="subscribe">
+						<label>
+							<input type="checkbox"> Coding
+						</label>
+						<br>
+						<label>
+							<input type="checkbox"> Nature
+						</label>
+						<br>
+						<label>
+							<input type="checkbox"> Science
+						</label>
+						<br>
+						<label>
+							<input type="checkbox"> Sports
+						</label>
+						<br>
+						<!-- TODO: Add other type of posts -->
+						<label>
+							<input type="checkbox"> Tech
+						</label>
+						<br>
+						<label>
+							<input type="checkbox"> Math
+						</label>
+						<br>
+						<label>
+							<input type="checkbox"> News
+						</label>
+						<br>
+
+						<button>Search</button>
+					</section>
+
+				</fieldset>
+
+			</form>
+
+		</aside>
+
+		<!-- Concluding content -->
+		<footer>
+
+			<!-- Subscription form -->
+			<form id="footer-item-1">
+				<fieldset>
+					<legend>Subscribe</legend>
+
+					<section class="subscribe">
+						<label>Name <input type="text" maxlength="30" size="30"></label>
+
+						<label>Email <input type="email" maxlength="30" size="30"></label>
+						<br>
+						<button>Subscribe Now</button>
+					</section>
+
+				</fieldset>
+			</form>
+
+			<!-- Social Sharing -->
+			<address id="footer-item-2">
+
+				<hgroup class="addshadow">
+					<h3>Follow me</h3>
+				</hgroup>
+
+				<ul class="navigation">
+					<li>
+						<a href="mailto:ulugbekurunov1997@mail.ru" class="social-media">Email</a>
+					</li>
+					<li>
+						<a href="https://www.facebook.com/uurunov" class="social-media">Facebook</a>
+					</li>
+					<li>
+						<a href="https://twitter.com/UlugbekUrinov" class="social-media">Twitter</a>
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/in/uurunov/" class="social-media">LinkedIn</a>
+					</li>
+				</ul>
+
+			</address>
+
+		</footer>
+
+	</body>
+</html>

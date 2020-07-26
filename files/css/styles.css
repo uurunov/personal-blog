@@ -1,0 +1,73 @@
+/* Selections by Type */
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+figcaption, hgroup, legend, h2{
+	text-align: center;
+}
+
+address {
+	font-style: normal;
+}
+
+figcaption {
+	letter-spacing: 2px;
+	word-spacing: 5px;
+}
+
+legend, button {
+	text-decoration: underline;
+	font-weight: bolder;
+}
+
+h1, h2, h3 {
+	letter-spacing: 2px;
+}
+
+strong, em, mark {
+	letter-spacing: 1px;
+}
+
+span {
+	text-decoration: underline;
+}
+
+button:hover{
+	text-decoration: none;
+}
+
+
+/* Selections by ID */
+
+#link {
+	font-weight: bolder;
+}
+
+
+/* Selections by Class */
+
+.navigation {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.card-button {
+	text-align: center;
+	word-spacing: 1px;
+	width: 100%;
+}
+
+.card-content {
+	text-align: center;
+}
+
+
+

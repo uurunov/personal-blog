@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+
+
+/* Selections by Type */
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+}
+
+figcaption {
+	font-family: 'Raleway', sans-serif;
+}
+
+legend, button {
+	font-family: 'Roboto', sans-serif;
+}
+
+label {
+	font-family: 'Baloo Da 2', cursive;
+}
+
+
+/* Selections by ID */
+
+#link {
+	font-family: 'Roboto', sans-serif;
+}
+
+
+/* Selections by Class */
+
+.card-button {
+	font-family: 'Playfair Display', serif;
+}
+
+.navigation {
+	font-family: 'Lobster', cursive;
+	font-size: 1.5em;
+}
+
+.card-content {
+	font-family: 'Baloo Da 2', cursive;
+}
+
+
+/* Small screens: 600px */
+
+@media (max-width: 600px)
+{
+	/* Selections by Type */
+
+	button, legend, label {
+		font-size: 1.1em;
+	}
+
+	/* Selections by ID */
+
+	/* Selections by Class */
+
+	.navigation {
+		font-size: 1em;
+	}
+
+	.card-content {
+		font-size: 1.2em;
+	}
+
+	.card-button {
+		font-size: 1.2em;
+	}
+}
+
+
+/* Medium screens: */
+
+@media (min-width: 601px) and (max-width: 1089px)
+{
+	/* Selections by Type */
+
+	button, legend, label {
+		font-size: 1.1em;
+	}
+
+	figcaption {
+		font-size: 1.2em;
+	}
+
+	hgroup {
+		font-size: 1.4em;
+	}
+
+	/* Selections by ID */
+
+	/* Selections by Class */
+
+	.navigation {
+		font-size: 1.6em;
+	}
+
+	.card-content {
+		font-size: 1.5em;
+	}
+
+	.card-button {
+		font-size: 1.4em;
+	}
+}
+
+
+/* Large screens */
+
+@media (min-width: 1090px)
+{
+	/* Selections by Type */
+
+	button, legend, label {
+		font-size: 1.2em;
+	}
+
+	figcaption {
+		font-size: 1.4em;
+	}
+
+	hgroup {
+		font-size: 1.1em;
+	}
+
+	/* Selections by ID */
+
+	/* Selections by Class */
+
+	.navigation {
+		font-size: 1.8em;
+	}
+}
