@@ -36,5 +36,5 @@ as well as proper CSS and HTML formatting & style.
 - Code indents all content, that is rules within rules as well as declarations to reflect hierarchy and improve understanding.
 
 ## Contact Details
-Email: ulugbekurunov1997@mail.ru
-LinkedIn: https://linkedin.com/in/uurunov
+- Email: ulugbekurunov1997@mail.ru
+- LinkedIn: https://linkedin.com/in/uurunov
