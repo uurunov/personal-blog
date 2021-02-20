@@ -1,6 +1,6 @@
 # Personal Blog
 
-## Overview
+## Project Overview
 The website requires to make use of HTML and CSS skills to build out a personal blog website, including custom images, layout, styling, appropriate structure of the files, 
 as well as proper CSS and HTML formatting & style.
 
